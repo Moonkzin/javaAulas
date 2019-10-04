@@ -5,6 +5,6 @@ public class contaCorrente extends contaBancaria {
 	}
 	
 	public String getTipo() {
-		return super.getTipo() + " Corrente";
+		return  "Conta Corrente";
 	}
 }

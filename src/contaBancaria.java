@@ -1,12 +1,11 @@
 
-public class contaBancaria {
+public abstract class contaBancaria {
 	String nome;
 	double saldo;
 	int numerAccount;
 	
-	public String getTipo() {
-		return "Conta";
-	}
+	public abstract String getTipo();
+	
 	
 	public void deposit (int value) {
 		this.saldo = saldo + value;
